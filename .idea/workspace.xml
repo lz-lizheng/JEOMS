@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c85b00a-c1be-461c-9487-7f39a8ac5d7d" name="Default Changelist" comment="" />
+    <list default="true" id="3c85b00a-c1be-461c-9487-7f39a8ac5d7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +24,11 @@
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/projects/default\exportToHTML" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hqYsRd2HiAfLNuqdpvLv5kpRuR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -132,11 +139,20 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="230" height="195" key="DatabaseViewActions_Filter/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644853977173" />
-    <state x="2660" y="286" key="FileChooserDialogImpl" timestamp="1644853969635">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1650898463058">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650898463058" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1644750729647" />
     <state x="2660" y="286" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644853969635" />
+    <state x="853" y="419" key="Github.ShareDialog" timestamp="1650883705643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="853" y="419" key="Github.ShareDialog/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650883705643" />
+    <state x="640" y="243" key="Github.UntrackedFilesDialog" timestamp="1650883717734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="243" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650883717734" />
     <state width="1846" height="372" key="GridCell.Tab.0.bottom" timestamp="1650877557952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,6 +215,10 @@
     </state>
     <state width="607" height="447" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1642479403966" />
     <state width="607" height="465" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644755470926" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1650898438667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650898438667" />
     <state x="818" y="386" width="322" height="283" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1648203037777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
