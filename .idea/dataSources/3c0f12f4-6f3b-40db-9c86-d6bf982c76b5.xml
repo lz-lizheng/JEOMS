@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="mongodbDev">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.19">
+    <root id="1">
+      <ServerVersion>4.2.13</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="oms_merchant_system">
+      <Current>1</Current>
+    </schema>
+    <table id="3" parent="2" name="omc_account"/>
+    <table id="4" parent="2" name="omc_daily_balance"/>
+    <table id="5" parent="2" name="omc_inner_app"/>
+    <table id="6" parent="2" name="omc_mall_order_app"/>
+    <table id="7" parent="2" name="omc_merchant"/>
+    <table id="8" parent="2" name="omc_merchant_recharge_order"/>
+    <table id="9" parent="2" name="omc_merchant_store"/>
+    <table id="10" parent="2" name="omc_product"/>
+    <table id="11" parent="2" name="omc_product_pack"/>
+    <table id="12" parent="2" name="omc_sms_record"/>
+    <table id="13" parent="2" name="omc_third_app"/>
+    <table id="14" parent="2" name="omc_user"/>
+    <column id="15" parent="3" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="16" parent="3" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="17" parent="3" name="accountDetailsType">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="18" parent="3" name="accountName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="19" parent="3" name="balance">
+      <DataType>Decimal128(0)|12s</DataType>
+    </column>
+    <column id="20" parent="3" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="21" parent="3" name="margin">
+      <DataType>Integer|4s</DataType>
+    </column>
+    <column id="22" parent="3" name="merchantId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="23" parent="3" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="24" parent="3" name="productId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="25" parent="3" name="thirdAppId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="26" parent="3" name="accountType">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="27" parent="4" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="28" parent="4" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="29" parent="4" name="accountId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="30" parent="4" name="accountName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="31" parent="4" name="consume">
+      <DataType>Integer|4s</DataType>
+    </column>
+    <column id="32" parent="4" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="33" parent="4" name="dailyBalance">
+      <DataType>Integer|4s</DataType>
+    </column>
+    <column id="34" parent="4" name="merchantCode">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="35" parent="4" name="merchantId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="36" parent="4" name="merchantName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="37" parent="4" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="38" parent="4" name="productId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="39" parent="4" name="recharge">
+      <DataType>Integer|4s</DataType>
+    </column>
+    <column id="40" parent="4" name="date">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="41" parent="5" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="42" parent="5" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="43" parent="5" name="appKey">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="44" parent="5" name="appSecret">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="45" parent="5" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="46" parent="5" name="innerAppInt">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="47" parent="5" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="48" parent="5" name="innerAppName">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="49" parent="6" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="50" parent="6" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="51" parent="6" name="mallType">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="52" parent="6" name="orderId">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="53" parent="6" name="orderTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="54" parent="6" name="payFee">
+      <DataType>Double(0)|8s</DataType>
+    </column>
+    <column id="55" parent="6" name="storeName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="56" parent="6" name="isRefund">
+      <DataType>Boolean|12s</DataType>
+    </column>
+    <column id="57" parent="6" name="_class">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="58" parent="7" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="59" parent="7" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="60" parent="7" name="address">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="61" parent="7" name="apiUrl">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="62" parent="7" name="contact">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="63" parent="7" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="64" parent="7" name="email">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="65" parent="7" name="invoice">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="66" parent="7" name="merchantCode">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="67" parent="7" name="merchantName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="68" parent="7" name="mobile">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="69" parent="7" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="70" parent="7" name="omsVersion">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="71" parent="7" name="invoiceAccount">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="72" parent="7" name="invoiceAddress">
+      <Position>2</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="73" parent="7" name="invoiceBank">
+      <Position>3</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="74" parent="7" name="invoiceMobile">
+      <Position>4</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="75" parent="7" name="invoiceTaxpayerId">
+      <Position>5</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="76" parent="7" name="invoiceTitle">
+      <Position>6</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="77" parent="8" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="78" parent="8" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="79" parent="8" name="accountId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="80" parent="8" name="accountName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="81" parent="8" name="amount">
+      <DataType>Double(0)|8s</DataType>
+    </column>
+    <column id="82" parent="8" name="confirm">
+      <DataType>Boolean|12s</DataType>
+    </column>
+    <column id="83" parent="8" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="84" parent="8" name="finishTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="85" parent="8" name="merchantId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="86" parent="8" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="87" parent="8" name="orderNo">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="88" parent="8" name="paymentAccount">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="89" parent="8" name="productPackId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="90" parent="8" name="rechargeStatus">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="91" parent="8" name="remarks">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="92" parent="8" name="tradeNo">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="93" parent="8" name="paymentWay">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="94" parent="9" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="95" parent="9" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="96" parent="9" name="appKey">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="97" parent="9" name="appSecret">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="98" parent="9" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="99" parent="9" name="creator">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="100" parent="9" name="mallShopId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="101" parent="9" name="merchantId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="102" parent="9" name="merchantName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="103" parent="9" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="104" parent="9" name="remark">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="105" parent="9" name="storeId">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="106" parent="9" name="mallType">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="107" parent="9" name="storeName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="108" parent="9" name="storeNick">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="109" parent="9" name="customerId">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="110" parent="10" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="111" parent="10" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="112" parent="10" name="enable">
+      <DataType>Boolean|12s</DataType>
+    </column>
+    <column id="113" parent="10" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="114" parent="10" name="productDesc">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="115" parent="10" name="productName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="116" parent="10" name="productType">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="117" parent="10" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="118" parent="11" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="119" parent="11" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="120" parent="11" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="121" parent="11" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="122" parent="11" name="price">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="123" parent="11" name="productId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="124" parent="11" name="productName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="125" parent="11" name="quantity">
+      <DataType>Integer|4s</DataType>
+    </column>
+    <column id="126" parent="12" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="127" parent="12" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="128" parent="12" name="accountId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="129" parent="12" name="bizId">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="130" parent="12" name="content">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="131" parent="12" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="132" parent="12" name="errCode">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="133" parent="12" name="merchantCode">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="134" parent="12" name="merchantId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="135" parent="12" name="merchantName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="136" parent="12" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="137" parent="12" name="phoneNumber">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="138" parent="12" name="productId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="139" parent="12" name="sendStatus">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="140" parent="12" name="sign">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="141" parent="12" name="success">
+      <DataType>Boolean|12s</DataType>
+    </column>
+    <column id="142" parent="12" name="errMsg">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="143" parent="12" name="sendTime">
+      <Position>1</Position>
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="144" parent="13" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="145" parent="13" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="146" parent="13" name="appKey">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="147" parent="13" name="appSecret">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="148" parent="13" name="callbackUrl">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="149" parent="13" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="150" parent="13" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="151" parent="13" name="productType">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="152" parent="13" name="serviceUrl">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="153" parent="13" name="thirdAppName">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="154" parent="14" name="_id">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="155" parent="14" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="156" parent="14" name="createdTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="157" parent="14" name="enable">
+      <DataType>Boolean|12s</DataType>
+    </column>
+    <column id="158" parent="14" name="lastLoginTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="159" parent="14" name="merchantId">
+      <DataType>Long(0)|12s</DataType>
+    </column>
+    <column id="160" parent="14" name="modifiedTime">
+      <DataType>Date(0)|91s</DataType>
+    </column>
+    <column id="161" parent="14" name="nickname">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="162" parent="14" name="password">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="163" parent="14" name="remark">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="164" parent="14" name="role">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="165" parent="14" name="username">
+      <DataType>String(0)|12s</DataType>
+    </column>
+  </database-model>
+</dataSource>

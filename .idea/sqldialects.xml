@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://E:/oms_region_lz.sql" dialect="MySQL" />
+    <file url="file://E:/新建文件夹/批量脚本/若羽臣.sql" dialect="MySQL" />
+  </component>
+</project>

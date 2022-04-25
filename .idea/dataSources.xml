@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="卡宾-test" group="卡宾" uuid="b4f1291d-24d8-49c7-b431-0ca2eb9d2b18">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://192.168.100.32</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="卡宾-正式" group="卡宾" uuid="ae69c409-f927-4654-a6dc-aa66aed1a2d6">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://192.168.100.89</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="3.0test" group="test" uuid="9e7ea6bd-f0bd-4280-b86f-d08b0f233258">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://101.37.65.195:40001</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="new-test" group="test" uuid="b5d92220-e4fa-40d4-ad2a-afb26545598b">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://39.101.173.9:30004</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="361" group="3.0线上客户" uuid="7d0ec9ee-f55d-4035-b6f9-193a04e549ac">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jvr7tr5n82f6991.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="达利园" group="3.0线上客户" uuid="23c2b2df-b6f4-4f48-81ee-ad975101d917">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j5492azk50k1g0u.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="test" group="test" uuid="a5421c7c-899c-44e2-bfa9-d58887d2eaa5">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://39.98.73.106:30001</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="嫚熙" group="3.0线上客户" uuid="03c9d50a-9215-47e9-b3b2-9bd3704770bf">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jy5e93960fzi6hb.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="碧捷" group="3.0线上客户" uuid="af5548bc-327b-4714-ab05-0183a0e1ccdd">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jkz71bihif9l9aw.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="梦特娇" group="3.0线上客户" uuid="f0fa68c8-d8fb-479d-a651-0902d2c36395">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jo9eb96yh4lt0zn.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="暇步士" group="3.0线上客户" uuid="5756625b-2de0-42d3-bfb4-97beb1594383">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j9lx20l4o2w3u0v.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="若羽臣" group="2.0线上客户" uuid="3462e782-9adc-44d0-ab2d-2dc2647397d6">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://rm-vy1m43211dt4tmxyq-vpc.sqlserver.rds.aliyuncs.com:3433</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="倍轻松" group="2.0线上客户" uuid="4d2adadb-b7b1-4efb-9689-fa74534fc361">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://rm-vy1unud48t0881246-vpc.sqlserver.rds.aliyuncs.com:3433</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="美锦" group="3.0线上客户" uuid="36b2d30c-3533-48e8-b3be-2a9784c78672">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="经贸-生活无忧" group="2.0线上客户" uuid="a23ad7f7-323e-4f99-a72d-0c96e3d6b97f">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://rm-k2j9d7m167fjo1725.mssql.zhangbei.rds.aliyuncs.com:1433</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mongodbDev" group="test" uuid="3c0f12f4-6f3b-40db-9c86-d6bf982c76b5">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://101.37.65.195:40008/oms_merchant_system</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="361测试" group="3.0线上客户" uuid="cb9c35f4-03b1-41c3-ba1b-7bb4404f96bc">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://39.103.202.69:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="言逊" group="3.0线上客户" uuid="5584c03a-ec1a-4fde-a5fd-c45867ceb0e6">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jtbw18341640x68.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="彼悦" group="3.0线上客户" uuid="7510abb6-513d-4534-8d0b-9535df11930c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jw88994as93h71w.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="ADB" group="3.0线上客户" uuid="2b4a582e-ab73-4951-bb0e-91a547e0febd">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://am-k2jofo4pi5zhdxspy43750.zhangbei.ads.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="星油" group="3.0线上客户" uuid="87a4f1da-5a83-4ecf-8850-6c634df90893">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-vy19e0ti60m394skl.mysql.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="名创优品" group="3.0线上客户" uuid="80afc54e-ca01-412d-a0b0-301eb3bf69b2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j343jhziif99sc4.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="恰恰" group="3.0线上客户" uuid="17add569-ade2-49ad-bf52-ef14b35d75fe">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j76v3mx822rh8da.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="作业帮" group="3.0线上客户" uuid="70d82343-3c72-412e-a0dc-6fbf577bf92b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j45672x82q6494w.mysql.zhangbei.rds.aliyuncs.com:3306/oms_biz</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="运维中心生产" group="3.0线上客户" uuid="4f589e95-b415-497d-9b2a-40e2f11b367c">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://172.16.64.15:27017/omc</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="爱林-顺造-海时光" group="3.0线上客户" uuid="5221feee-1ab8-4377-88fc-f643b8cc4af5">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j0wrue3xhol5m41.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="361微盟" group="3.0线上客户" uuid="71a366e3-ed45-4f18-862c-6fd476dcc2ce">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jo85a3bqkvlp218.mysql.zhangbei.rds.aliyuncs.com:3306/oms_biz</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="爬爬" group="3.0线上客户" uuid="d40c7666-df51-4cde-91a7-96f6b7968161">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j573jq73hyupeg8.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="北野" group="3.0线上客户" uuid="c98a7260-7cee-4d75-8bbd-00057454788d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j4d868o17fb2w65.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="减字" group="3.0线上客户" uuid="fc66f6af-efaa-4859-a7ee-59b83b2659d6">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j7yts07z3mum614.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="灵珞" group="3.0线上客户" uuid="04e9ad0e-c4ec-4e24-be7f-07113c6eb7cc">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j0wrue3xhol5m41.mysql.zhangbei.rds.aliyuncs.com:3306/</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="尔克3.0" group="3.0线上客户" uuid="753e8d16-96c0-402b-b912-a0d2f92585d0">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jsw6r4h74502zgs.mysql.zhangbei.rds.aliyuncs.com:3306/oms_biz</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="鲸仓" group="3.0线上客户" uuid="3e576636-f3b2-4b11-adda-46ee3b9af97a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j0wrue3xhol5m41.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="黯涉" group="3.0线上客户" uuid="f2578010-21e6-47cf-81ba-6fb160bea0da">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jbe2p961w88blaw.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="领克" group="3.0线上客户" uuid="b11b8c1a-d7cb-479b-a95d-95436c52d103">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jazt7b8xiw063a3.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="瑞鹏" group="3.0线上客户" uuid="42669f3f-491d-41f2-ba56-c91bf7154ee6">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jhuk9o1wijcxef4.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="来酷" group="3.0线上客户" uuid="30d3bf67-6633-47bd-a410-282c4670d48c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jk1345db940uw6i.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="英涉" group="3.0线上客户" uuid="b7c39b98-7b03-419e-a4be-072e4fe068a1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j9hs4n52f82tln4.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="奥太信" group="3.0线上客户" uuid="b0820f58-2a5a-4834-8a5e-a6d0a1c3edea">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2jf7023w1b8uwo19.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="巴布豆" group="3.0线上客户" uuid="d6e60287-fab3-4965-bc90-145374db6609">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j28241ie4004ci6.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="维他奶" group="3.0线上客户" uuid="388068c0-a72c-445d-8499-af39d6980290">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://oms-mysql-prd-public.mysql.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sit" uuid="2f07356d-89ce-47e5-a186-2b6843777d76">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j0wrue3xhol5m41.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="石头科技" group="3.0线上客户" uuid="9935334b-e506-438e-be7c-6e2ba8e32f3b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-k2j5wohf64yf3uby0.mysql.zhangbei.rds.aliyuncs.com:3306</jdbc-url>
+    </data-source>
+  </component>
+</project>

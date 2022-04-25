@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="卡宾-test" uuid="b4f1291d-24d8-49c7-b431-0ca2eb9d2b18">
+      <database-info product="Microsoft SQL Server" version="12.00.5000" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 8.2 for SQL Server" driver-version="8.2.2.0" dbms="MSSQL" exact-version="12.0.5000" exact-driver-version="8.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database">
+              <name qname="jeods" />
+              <name qname="jeoms" />
+              <node kind="schema" qname="dbo" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="卡宾-正式" uuid="ae69c409-f927-4654-a6dc-aa66aed1a2d6">
+      <database-info product="Microsoft SQL Server" version="13.00.4001" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 8.2 for SQL Server" driver-version="8.2.2.0" dbms="MSSQL" exact-version="13.0.4001" exact-driver-version="8.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="jeoms">
+              <node kind="schema" qname="dbo" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="3.0test" uuid="9e7ea6bd-f0bd-4280-b86f-d08b0f233258">
+      <database-info product="MySQL" version="5.7.25-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.25" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>dev</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="oms3_dev_admin" />
+            <name qname="oms3_dev_biz" />
+            <name qname="oms3_runmitest_admin" />
+            <name qname="oms3_runmitest_biz" />
+            <name qname="oms3_sit_admin" />
+            <name qname="oms3_sit_biz" />
+            <name qname="oms3_uat_admin" />
+            <name qname="oms3_uat_biz" />
+            <name qname="oms3_uat_quartz" />
+            <name qname="shop_dev" />
+            <name qname="shop_test" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="new-test" uuid="b5d92220-e4fa-40d4-ad2a-afb26545598b">
+      <database-info product="Microsoft SQL Server" version="11.00.3000" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 8.2 for SQL Server" driver-version="8.2.2.0" dbms="MSSQL" exact-version="11.0.3000" exact-driver-version="8.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>OMS</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database">
+              <name qname="JEODS" />
+              <name qname="JEOMS" />
+              <node kind="schema" qname="dbo" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="361" uuid="7d0ec9ee-f55d-4035-b6f9-193a04e549ac">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusre4557wkn</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_admin_yc" />
+            <name qname="oms_biz" />
+            <name qname="oms_biz_yc" />
+            <name qname="oms_quartz" />
+            <name qname="shop" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="达利园" uuid="23c2b2df-b6f4-4f48-81ee-ad975101d917">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusr3z3dwqbu</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="test" uuid="a5421c7c-899c-44e2-bfa9-d58887d2eaa5">
+      <database-info product="Microsoft SQL Server" version="11.00.3000" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 8.2 for SQL Server" driver-version="8.2.2.0" dbms="MSSQL" exact-version="11.0.3000" exact-driver-version="8.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>test</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database">
+              <name qname="develop-oms" />
+              <name qname="develop_oms_ruyun" />
+              <name qname="je-address" />
+              <name qname="ruyun_oms" />
+              <name qname="TestJEOMS" />
+              <node kind="schema" qname="dbo" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="嫚熙" uuid="03c9d50a-9215-47e9-b3b2-9bd3704770bf">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrk6h2rspq</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="碧捷" uuid="af5548bc-327b-4714-ab05-0183a0e1ccdd">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusryb2insc8</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="梦特娇" uuid="f0fa68c8-d8fb-479d-a651-0902d2c36395">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrtsa9ehmb</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="暇步士" uuid="5756625b-2de0-42d3-bfb4-97beb1594383">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusr729yvaeu</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="若羽臣" uuid="3462e782-9adc-44d0-ab2d-2dc2647397d6">
+      <database-info product="Microsoft SQL Server" version="13.00.5292" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 9.4 for SQL Server" driver-version="9.4.0.0" dbms="MSSQL" exact-version="13.0.5292" exact-driver-version="9.4">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>oms</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database">
+              <name qname="jehistory" />
+              <name qname="jeods" />
+              <name qname="jeoms" />
+              <name qname="master" />
+              <name qname="sys_info" />
+              <node kind="schema" qname="dbo" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="倍轻松" uuid="4d2adadb-b7b1-4efb-9689-fa74534fc361">
+      <database-info product="Microsoft SQL Server" version="13.00.5292" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 9.4 for SQL Server" driver-version="9.4.0.0" dbms="MSSQL" exact-version="13.0.5292" exact-driver-version="9.4">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>oms</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database">
+            <name qname="jeods" />
+            <name qname="jeoms" />
+            <name qname="sys_info" />
+            <node kind="schema" qname="dbo" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="美锦" uuid="36b2d30c-3533-48e8-b3be-2a9784c78672">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
+    </data-source>
+    <data-source name="经贸-生活无忧" uuid="a23ad7f7-323e-4f99-a72d-0c96e3d6b97f">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MSSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrs9dfh3xa</user-name>
+      <schema-mapping />
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>3d91967e-571a-4ba3-a36b-cc7ec0e8cf83</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="mongodbDev" uuid="3c0f12f4-6f3b-40db-9c86-d6bf982c76b5">
+      <database-info product="Mongo DB" version="4.2.13" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.12" dbms="MONGO" exact-version="4.2.13" exact-driver-version="1.12" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>devAdmin</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="oms_merchant_system" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="361测试" uuid="cb9c35f4-03b1-41c3-ba1b-7bb4404f96bc">
+      <database-info product="MySQL" version="5.7.36" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.36" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_uat_admin" />
+            <name qname="oms_uat_biz" />
+            <name qname="oms_uat_quartz" />
+            <name qname="sys" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="言逊" uuid="5584c03a-ec1a-4fde-a5fd-c45867ceb0e6">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrucurtxmu</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="彼悦" uuid="7510abb6-513d-4534-8d0b-9535df11930c">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrrrtdkuk8</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="ADB" uuid="2b4a582e-ab73-4951-bb0e-91a547e0febd">
+      <database-info product="MySQL" version="5.1.35-analyticdb" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jeadmin</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_biz_daligroup" />
+            <name qname="oms_biz_dyd361" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="星油" uuid="87a4f1da-5a83-4ecf-8850-6c634df90893">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>oms</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="名创优品" uuid="80afc54e-ca01-412d-a0b0-301eb3bf69b2">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrctpugdcy</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="恰恰" uuid="17add569-ade2-49ad-bf52-ef14b35d75fe">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrmuvxhjzv</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="作业帮" uuid="70d82343-3c72-412e-a0dc-6fbf577bf92b">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrap53pgzb</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="运维中心生产" uuid="4f589e95-b415-497d-9b2a-40e2f11b367c">
+      <database-info product="Mongo DB" version="" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.12" dbms="UNKNOWN" exact-version="0" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>omc_admin</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>false</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="爱林-顺造-海时光" uuid="5221feee-1ab8-4377-88fc-f643b8cc4af5">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrkcqj9tb5</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_ailin_admin" />
+            <name qname="oms_ailin_biz" />
+            <name qname="oms_ailin_quartz" />
+            <name qname="oms_haishiguang_admin" />
+            <name qname="oms_haishiguang_biz" />
+            <name qname="oms_haishiguang_quartz" />
+            <name qname="oms_shunzao_admin" />
+            <name qname="oms_shunzao_biz" />
+            <name qname="oms_shunzao_quartz" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="361微盟" uuid="71a366e3-ed45-4f18-862c-6fd476dcc2ce">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrqf9b7ycc</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_quartz" />
+            <name qname="shop" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="爬爬" uuid="d40c7666-df51-4cde-91a7-96f6b7968161">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrvewn9rhj</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="北野" uuid="c98a7260-7cee-4d75-8bbd-00057454788d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="减字" uuid="fc66f6af-efaa-4859-a7ee-59b83b2659d6">
+      <database-info product="MySQL" version="5.7.30-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.30" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrs2z3exee</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="灵珞" uuid="04e9ad0e-c4ec-4e24-be7f-07113c6eb7cc">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jeoms_jingcang</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="oms_jingcang_admin" />
+            <name qname="oms_jingcang_biz" />
+            <name qname="oms_jingcang_quartz" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="尔克3.0" uuid="753e8d16-96c0-402b-b912-a0d2f92585d0">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrzsav2puj</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="鲸仓" uuid="3e576636-f3b2-4b11-adda-46ee3b9af97a">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jeoms_jingcang</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_jingcang_admin" />
+            <name qname="oms_jingcang_biz" />
+            <name qname="oms_jingcang_quartz" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="黯涉" uuid="f2578010-21e6-47cf-81ba-6fb160bea0da">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrts3csaer</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="领克" uuid="b11b8c1a-d7cb-479b-a95d-95436c52d103">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrt5gdgk3a</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="瑞鹏" uuid="42669f3f-491d-41f2-ba56-c91bf7154ee6">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusr6xf464v4</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="来酷" uuid="30d3bf67-6633-47bd-a410-282c4670d48c">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusryavzirjj</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="英涉" uuid="b7c39b98-7b03-419e-a4be-072e4fe068a1">
+      <database-info product="MySQL" version="5.7.30-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.30" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrjih26e9i</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="奥太信" uuid="b0820f58-2a5a-4834-8a5e-a6d0a1c3edea">
+      <database-info product="MySQL" version="5.7.32-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.32" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusr433j83pj</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="巴布豆" uuid="d6e60287-fab3-4965-bc90-145374db6609">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusr9xifjmvy</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_biz_history" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="维他奶" uuid="388068c0-a72c-445d-8499-af39d6980290">
+      <database-info product="MySQL" version="5.7.30-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.30" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>vitasoy</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="sit" uuid="2f07356d-89ce-47e5-a186-2b6843777d76">
+      <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.6.16" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusrkcqj9tb5</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms3_sit_admin" />
+            <name qname="oms3_sit_biz" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+    <data-source name="石头科技" uuid="9935334b-e506-438e-be7c-6e2ba8e32f3b">
+      <database-info product="MySQL" version="5.7.30-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.30" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jusr8rh7wyqq</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="oms_admin" />
+            <name qname="oms_biz" />
+            <name qname="oms_quartz" />
+            <name qname="sys_info" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>f6307fba-e1fb-460f-b40d-8aaa94c72e24</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+  </component>
+</project>

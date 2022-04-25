@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c85b00a-c1be-461c-9487-7f39a8ac5d7d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="71a366e3-ed45-4f18-862c-6fd476dcc2ce" value="Forest" />
+      <entry key="9e7ea6bd-f0bd-4280-b86f-d08b0f233258" value="Orange" />
+      <entry key="oms_admin_yc/7d0ec9ee-f55d-4035-b6f9-193a04e549ac:SCHEMA" value="Rose" />
+      <entry key="oms_biz_yc/7d0ec9ee-f55d-4035-b6f9-193a04e549ac:SCHEMA" value="Rose" />
+    </colors>
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/projects/default\exportToHTML" />
+  </component>
+  <component name="ProjectId" id="1hqYsRd2HiAfLNuqdpvLv5kpRuR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DBE.Init.BalloonShown" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;mongo&#10;mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="database.data.extractors.current.export.id" value="Excel (xlsx)" />
+    <property name="database.data.extractors.current.id" value="Tab-separated (TSV)_id" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="service.view.auto.scroll.to.source" value="true" />
+    <property name="settings.editor.selected.configurable" value="database.main2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\AppData\Roaming\JetBrains\DataGrip2020.2\consoles\db\7d0ec9ee-f55d-4035-b6f9-193a04e549ac" />
+    </key>
+  </component>
+  <component name="RunManager" selected="数据库脚本.oms_region_lz.sql">
+    <configuration name="未命名" type="CompoundRunConfigurationType">
+      <toRun name="2.0批量查询.sql (1)" type="DatabaseScript" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="2.0批量查询.sql (1)" type="DatabaseScript" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2.0批量查询.sql (1)" type="DatabaseScript" singleton="false" nameIsGenerated="true">
+      <script-file value="E:/新建文件夹/批量脚本/2.0批量查询.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="4d2adadb-b7b1-4efb-9689-fa74534fc361" namespace="database/&quot;jeoms&quot;/schema/&quot;dbo&quot;" />
+      <data-source id="3462e782-9adc-44d0-ab2d-2dc2647397d6" namespace="database/&quot;jeoms&quot;/schema/&quot;dbo&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="若羽臣.sql (1)" type="DatabaseScript" editBeforeRun="true" singleton="false" temporary="true" nameIsGenerated="true">
+      <data-source id="3462e782-9adc-44d0-ab2d-2dc2647397d6" namespace="database/&quot;jeods&quot;/schema/&quot;dbo&quot;" />
+      <data-source id="4d2adadb-b7b1-4efb-9689-fa74534fc361" namespace="database/&quot;jeods&quot;/schema/&quot;dbo&quot;" />
+      <script-text>select * from jeoms.dbo.Store where Name in ('IC独家定制',
+'HEA银鳞堂专卖店',
+'千妇恋旗舰店',
+'BOBDOGHOUSE童鞋旗舰店')</script-text>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="DatabaseScript" singleton="false">
+      <script-file value="E:/新建文件夹/批量脚本/2.0批量查询.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="3462e782-9adc-44d0-ab2d-2dc2647397d6" namespace="database/&quot;jeods&quot;/schema/&quot;dbo&quot;" />
+      <data-source id="4d2adadb-b7b1-4efb-9689-fa74534fc361" namespace="database/&quot;jeods&quot;/schema/&quot;dbo&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oms_region_lz.sql" type="DatabaseScript" editBeforeRun="true" singleton="false" temporary="true" nameIsGenerated="true">
+      <script-file value="E:/oms_region_lz.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="3462e782-9adc-44d0-ab2d-2dc2647397d6" namespace="database/&quot;jeods&quot;/schema/&quot;dbo&quot;" />
+      <data-source id="4d2adadb-b7b1-4efb-9689-fa74534fc361" namespace="database/&quot;jeods&quot;/schema/&quot;dbo&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Compound.未命名" />
+      <item itemvalue="数据库脚本.2.0批量查询.sql (1)" />
+      <item itemvalue="数据库脚本.若羽臣.sql (1)" />
+      <item itemvalue="数据库脚本.oms_region_lz.sql" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="数据库脚本.oms_region_lz.sql" />
+        <item itemvalue="数据库脚本.若羽臣.sql (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="WindowStateProjectService">
+    <state x="725" y="239" key="#SSH_配置" timestamp="1649673658830">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="725" y="239" key="#SSH_配置/0.0.1920.1040/-1920.27.1920.1080@0.0.1920.1040" timestamp="1646651975699" />
+    <state x="725" y="239" key="#SSH_配置/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1649673658830" />
+    <state x="725" y="239" key="#SSH_配置/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1644750740153" />
+    <state x="2594" y="237" key="#SSH_配置/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1641633052600" />
+    <state x="367" y="204" width="981" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1650783099830">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="367" y="204" width="981" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.27.1920.1080@0.0.1920.1040" timestamp="1647143417537" />
+    <state x="367" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650783099830" />
+    <state x="592" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1645251930673" />
+    <state x="2270" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644930368155" />
+    <state x="367" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1647421946324" />
+    <state x="2512" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1645865699523" />
+    <state x="613" y="351" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1645272694300">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="613" y="351" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1645272694300" />
+    <state x="2620" y="375" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644828533461" />
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1641613609371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1641613609371" />
+    <state x="2472" y="181" key="#插件" timestamp="1641635286583">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2472" y="181" key="#插件/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1641635286583" />
+    <state x="2560" y="295" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1644854247210">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2560" y="295" key="DUMP_DIALOG_DIMENSION_KEY/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644854247210" />
+    <state width="230" height="195" key="DatabaseViewActions_Filter" timestamp="1644853977173">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="230" height="195" key="DatabaseViewActions_Filter/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644853977173" />
+    <state x="2660" y="286" key="FileChooserDialogImpl" timestamp="1644853969635">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1644750729647" />
+    <state x="2660" y="286" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644853969635" />
+    <state width="1846" height="372" key="GridCell.Tab.0.bottom" timestamp="1650877557952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="188" key="GridCell.Tab.0.bottom/0.0.1680.1010/-1920.8.1920.1080@0.0.1680.1010" timestamp="1648053584928" />
+    <state width="1846" height="17" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.27.1920.1080@0.0.1920.1040" timestamp="1647144214217" />
+    <state width="1846" height="372" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650877557952" />
+    <state width="1846" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1645260368051" />
+    <state width="1846" height="389" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644932166253" />
+    <state width="1846" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1647870758890" />
+    <state width="1846" height="285" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1646132743384" />
+    <state width="1846" height="285" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1646038508186" />
+    <state width="1846" height="372" key="GridCell.Tab.0.center" timestamp="1650877557951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="188" key="GridCell.Tab.0.center/0.0.1680.1010/-1920.8.1920.1080@0.0.1680.1010" timestamp="1648053584928" />
+    <state width="1846" height="17" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.27.1920.1080@0.0.1920.1040" timestamp="1647144214217" />
+    <state width="1846" height="372" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650877557951" />
+    <state width="1846" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1645260368051" />
+    <state width="1846" height="389" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644932166253" />
+    <state width="1846" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1647870758890" />
+    <state width="1846" height="285" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1646132743383" />
+    <state width="1846" height="285" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1646038508186" />
+    <state width="1846" height="372" key="GridCell.Tab.0.left" timestamp="1650877557951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="188" key="GridCell.Tab.0.left/0.0.1680.1010/-1920.8.1920.1080@0.0.1680.1010" timestamp="1648053584928" />
+    <state width="1846" height="17" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.27.1920.1080@0.0.1920.1040" timestamp="1647144214216" />
+    <state width="1846" height="372" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650877557951" />
+    <state width="1846" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1645260368051" />
+    <state width="1846" height="389" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644932166253" />
+    <state width="1846" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1647870758890" />
+    <state width="1846" height="285" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1646132743383" />
+    <state width="1846" height="285" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1646038508186" />
+    <state width="1846" height="372" key="GridCell.Tab.0.right" timestamp="1650877557952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="188" key="GridCell.Tab.0.right/0.0.1680.1010/-1920.8.1920.1080@0.0.1680.1010" timestamp="1648053584928" />
+    <state width="1846" height="17" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.27.1920.1080@0.0.1920.1040" timestamp="1647144214217" />
+    <state width="1846" height="372" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650877557952" />
+    <state width="1846" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1645260368051" />
+    <state width="1846" height="389" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644932166253" />
+    <state width="1846" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1647870758890" />
+    <state width="1846" height="285" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1646132743384" />
+    <state width="1846" height="285" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1646038508186" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1650802342650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040/-1920.27.1920.1080@0.0.1920.1040" timestamp="1647143503342" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650802342650" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1644945464274" />
+    <state width="220" height="496" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644930397878" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1647421964297" />
+    <state x="2381" y="170" key="SettingsEditor" timestamp="1641635231308">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1641614165675" />
+    <state x="2381" y="170" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1641635231308" />
+    <state width="607" height="465" key="SwitcherDM" timestamp="1644755470926">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="607" height="447" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1642479403966" />
+    <state width="607" height="465" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644755470926" />
+    <state x="818" y="386" width="322" height="283" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1648203037777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="818" y="386" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1648203037777" />
+    <state x="818" y="386" width="380" height="267" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1645170716423" />
+    <state x="2738" y="401" width="322" height="283" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644762431190" />
+    <state x="540" y="175" key="com.intellij.database.dbimport.ImportDialog" timestamp="1650877449348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="com.intellij.database.dbimport.ImportDialog/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650877449348" />
+    <state x="540" y="175" key="com.intellij.database.dbimport.ImportDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1643267722086" />
+    <state x="540" y="175" key="com.intellij.database.dbimport.ImportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1647248761918" />
+    <state x="690" y="325" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1650438930192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="325" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650438930192" />
+    <state x="690" y="325" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1643256962038" />
+    <state x="776" y="326" width="368" height="383" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1648203081074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="326" width="368" height="383" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1648203081074" />
+    <state x="846" y="459" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1650213664536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="846" y="459" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650213664536" />
+    <state x="0" y="177" key="com.intellij.database.run.actions.ShowCsvFormatsAction$ForExport" timestamp="1643256914172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="177" key="com.intellij.database.run.actions.ShowCsvFormatsAction$ForExport/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1643256914172" />
+    <state x="415" y="0" width="547" height="795" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1650769133587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="415" y="0" width="862" height="893" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040/-1920.27.1920.1080@0.0.1920.1040" timestamp="1646733098384" />
+    <state x="415" y="0" width="547" height="795" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650769133587" />
+    <state x="415" y="0" width="956" height="1040" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1645168352689" />
+    <state x="415" y="0" width="1006" height="795" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1647857116345" />
+    <state x="2335" y="0" width="851" height="976" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1645863570338" />
+    <state x="1094" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1650772811658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1094" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.27.1920.1080@0.0.1920.1040" timestamp="1646832426176" />
+    <state x="1094" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.8.1920.1080@0.0.1920.1040" timestamp="1650772811658" />
+    <state x="1094" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1645260193389" />
+    <state x="3014" y="187" width="672" height="705" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1644932161724" />
+    <state x="1094" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1647412151016" />
+    <state x="3014" y="180" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1646029107539" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="OracleBreakpointType">
+          <url>dbSrc:///91520b6d/7d0ec9ee-f55d-4035-b6f9-193a04e549ac/schema/oms_biz/routine/update_stock_upload_strategy_warehouseName@().sql</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
